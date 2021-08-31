@@ -1,0 +1,24 @@
+{
+  "name": "ss-coffee",
+  "author": {
+    "name": "Owen Barnes",
+    "email": "owen@socketstream.org"
+  },
+  "description": "CoffeeScript wrapper for SocketStream 0.3",
+  "version": "1.0.0",
+  "main": "./wrapper.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socketstream/ss-coffee.git"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "coffee-script": "^1.12.7"
+  },
+  "devDependencies": {},
+  "readme": "# CoffeeScript (JS) wrapper for SocketStream 0.3\n\nAllows you to use [CoffeeScript](http://coffeescript.org/) files (.coffee) in your SocketStream project.\n\n\n### Instructions\n\nAdd `ss-coffee` to your application's `package.json` file and then add this line to app.js:\n\n```javascript\nss.client.formatters.add(require('ss-coffee'));\n```\n",
+  "_id": "ss-coffee@1.0.0",
+  "_from": "ss-coffee@1.0.x"
+}
